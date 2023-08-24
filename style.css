@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #111;
+    
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  .container {
+	margin-top : 100px;
+	margin-left : 385px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+  }
+  
+  .square {
+    background-color: #1d1d1d;
+    box-shadow: 0 0 2px #000;
+    height: 4px;
+    width: 4px;
+    margin: 0.5px;
+    transition: 2s ease;
+  }
+  
+  .square:hover {
+    transition-duration: 0s;
+  }
+  
+  button {
+	  margin-left : 50%;
+	  margin-top : 10px;
+	  color : blue;
+	  font-size : 20px;
+	  background-color : black;
+	  padding : 10px;
+  }
+  
